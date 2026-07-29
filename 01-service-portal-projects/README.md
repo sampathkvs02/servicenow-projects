@@ -1,6 +1,17 @@
+For your **Visitor Pass Management Portal**, you can make the GitHub README more attractive using **badges (stickers), emojis, navigation buttons, screenshots, and clickable links**. GitHub README files support Markdown, images, links, emojis, tables, and relative links between project files. ([GitHub Docs][1])
+
+Use the following improved `README.md`. Copy and paste it into:
+
+```text
+01-service-portal-projects/
+└── visitor-pass-management/
+    └── README.md
+```
+
+````markdown
 <div align="center">
 
-# 🎫 Visitor Pass Management Portal : https://dev267954.service-now.com/vsk_software_pravite_limited_company
+# 🎫 Visitor Pass Management Portal :https://dev267954.service-now.com/vsk_software_pravite_limited_company
 
 ### A Custom ServiceNow Service Portal Project
 
@@ -139,8 +150,11 @@ The Server Script performs the following actions:
 │ 🖨️ Print Visitor    │
 │       Pass          │
 └─────────────────────┘
+````
 
-🛠️ Technologies Used:
+---
+
+## 🛠️ Technologies Used
 
 | Technology           | Purpose                                  |
 | -------------------- | ---------------------------------------- |
@@ -157,7 +171,9 @@ The Server Script performs the following actions:
 | 📋 Custom Table      | Stores visitor information               |
 | 📦 Update Set        | Captures and deploys project changes     |
 
-🧩 ServiceNow Components:
+---
+
+## 🧩 ServiceNow Components
 
 | Component               | Configuration                       |
 | ----------------------- | ----------------------------------- |
@@ -171,7 +187,13 @@ The Server Script performs the following actions:
 | 📅 Date                 | Generated using `GlideDate`         |
 | 📦 Deployment           | Update Set XML                      |
 
-📂 Project Structure:
+ServiceNow widgets contain HTML, CSS, a client controller, and server-side logic, which matches the structure used in this project. ([ServiceNow Developers][2])
+
+---
+
+## 📂 Project Structure
+
+```text
 visitor-pass-management/
 │
 ├── 📄 README.md
@@ -197,66 +219,220 @@ visitor-pass-management/
 └── 📁 documentation/
     ├── 📖 installation-guide.md
     └── 🔄 project-flow.md
+```
 
-🚀 Installation Guide
-Step 1: Import the Update Set
+---
+
+## 📁 Quick Navigation
+
+### 💻 Widget Source Code
+
+* [📄 View HTML Code](./widget-code/html.html)
+* [🎨 View CSS Code](./widget-code/css.css)
+* [💻 View Client Controller](./widget-code/client-script.js)
+* [⚙️ View Server Script](./widget-code/server-script.js)
+
+### 📦 Deployment Files
+
+* [📦 View Update Set](./update-set/visitor-pass-update-set.xml)
+
+### 🗄️ Database Details
+
+* [🗄️ View Visitor Table Details](./database/visitor-table-details.md)
+
+### 📖 Documentation
+
+* [🚀 Installation Guide](./documentation/installation-guide.md)
+* [🔄 Project Flow](./documentation/project-flow.md)
+
+### 📸 Project Screenshots
+
+* [🏠 Portal Home Page](./screenshots/01-portal-home-page.png)
+* [📝 Visitor Registration Form](./screenshots/02-visitor-registration-form.png)
+* [🎫 Generated Visitor Pass](./screenshots/03-generated-visitor-card.png)
+* [🗄️ Visitor Table Record](./screenshots/04-visitor-table-record.png)
+
+---
+
+## 🚀 Installation Guide
+
+### Step 1: Import the Update Set
 
 Navigate to:
 
+```text
 System Update Sets
 → Retrieved Update Sets
 → Import Update Set from XML
+```
 
 Upload:
 
+```text
 visitor-pass-update-set.xml
-Step 2: Preview the Update Set
+```
+
+### Step 2: Preview the Update Set
 
 Open the imported Update Set and click:
 
+```text
 Preview Update Set
+```
 
 Review and resolve any conflicts.
 
-Step 3: Commit the Update Set
+### Step 3: Commit the Update Set
 
 Click:
 
+```text
 Commit Update Set
-Step 4: Verify the Components
+```
+
+### Step 4: Verify the Components
 
 Check the following:
 
-✅ Custom table is available
-✅ Visitor Pass widget is available
-✅ Portal page is available
-✅ Widget is added to the portal page
-✅ User has access to the portal
-Step 5: Test the Project
-Open the ServiceNow portal.
-Enter visitor information.
-Click Generate Visitor Pass.
-Verify the visitor card is displayed.
-Verify the visitor record is created.
-Click Print Pass.
-📸 Screenshots
-🏠 Portal Home Page
+* ✅ Custom table is available
+* ✅ Visitor Pass widget is available
+* ✅ Portal page is available
+* ✅ Widget is added to the portal page
+* ✅ User has access to the portal
 
-📝 Visitor Registration Form
+### Step 5: Test the Project
 
-🎫 Generated Visitor Pass
+1. Open the ServiceNow portal.
+2. Enter visitor information.
+3. Click **Generate Visitor Pass**.
+4. Verify the visitor card is displayed.
+5. Verify the visitor record is created.
+6. Click **Print Pass**.
 
-🗄️ Visitor Record
+---
 
-🧪 Testing Checklist
- Visitor form loads successfully
- Name is captured
- Designation is captured
- Mobile number is captured
- Place is captured
- Purpose is captured
- Visitor record is created
- Unique Visitor ID is generated
- Current date is displayed
- Visitor pass is generated
- Print functionality works
+## 📸 Screenshots
+
+### 🏠 Portal Home Page
+
+![Portal Home Page](./screenshots/01-portal-home-page.png)
+
+### 📝 Visitor Registration Form
+
+![Visitor Registration Form](./screenshots/02-visitor-registration-form.png)
+
+### 🎫 Generated Visitor Pass
+
+![Generated Visitor Pass](./screenshots/03-generated-visitor-card.png)
+
+### 🗄️ Visitor Record
+
+![Visitor Table Record](./screenshots/04-visitor-table-record.png)
+
+---
+
+## 🧪 Testing Checklist
+
+* [x] Visitor form loads successfully
+* [x] Name is captured
+* [x] Designation is captured
+* [x] Mobile number is captured
+* [x] Place is captured
+* [x] Purpose is captured
+* [x] Visitor record is created
+* [x] Unique Visitor ID is generated
+* [x] Current date is displayed
+* [x] Visitor pass is generated
+* [x] Print functionality works
+
+---
+
+## 🐛 Troubleshooting
+
+<details>
+
+<summary><b>❌ Visitor card is not displayed</b></summary>
+
+Check:
+
+```javascript
+data.showCard = true;
+```
+
+Check HTML:
+
+```html
+ng-if="c.data.showCard"
+```
+
+Also verify that the Client Controller receives the server response.
+
+</details>
+
+<details>
+
+<summary><b>❌ Visitor record is not created</b></summary>
+
+Check:
+
+* Table name
+* Field names
+* GlideRecord syntax
+* User permissions
+* Server Script errors
+
+Correct:
+
+```javascript
+var gr = new GlideRecord("u_visitors_table");
+```
+
+Incorrect:
+
+```javascript
+var gr = new gliderecord("u_visitors_table");
+```
+
+</details>
+
+<details>
+
+<summary><b>❌ Place value is empty</b></summary>
+
+The Client Controller sends:
+
+```javascript
+city: c.data.city
+```
+
+Therefore, use:
+
+```javascript
+gr.u_place = input.city;
+```
+
+</details>
+
+---
+
+## 📚 Learning Resources
+
+* [ServiceNow Developer Portal](https://developer.servicenow.com/)
+* [ServiceNow Service Portal Learning](https://developer.servicenow.com/dev.do)
+* [GitHub README Documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+* [GitHub Markdown Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+---
+
+## 👨‍💻 Author
+
+**Kodati Venkata Sampath**
+
+🎯 Aspiring ServiceNow Developer
+
+💼 ServiceNow Administrator | ServiceNow Developer | ITSM
+
+⭐ If you found this project useful, consider giving the repository a star!
+
+</div>
+```
