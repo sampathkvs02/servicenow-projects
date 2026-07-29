@@ -1,237 +1,236 @@
 # servicenow-projects
 A collection of hands-on ServiceNow projects including Service Portal, Service Catalog, ITSM,HRSD,CMDB,CSM,ITOM, Integrations, automation-and-flow-designer, and Custom Applications.
 
-Understood. You want the **main `servicenow-projects/README.md`** to look like a high-quality GitHub portfolio, with attractive symbols, badges, clean sections, project categories, and future project placeholders—but **without hyperlinks to projects**, because you will add projects one by one later.
-
-Use this as your **main repository README**:
-
-````markdown
 <div align="center">
 
 # ☁️ ServiceNow Projects Portfolio
 
-### 🚀 Hands-On ServiceNow Projects | Learning | Development | Automation
+### 🚀 Hands-On ServiceNow Projects | Learning • Building • Automating
 
 ![ServiceNow](https://img.shields.io/badge/Platform-ServiceNow-81B5A1?style=for-the-badge&logo=servicenow&logoColor=white)
 
-![Portfolio](https://img.shields.io/badge/Repository-Project%20Portfolio-0A66C2?style=for-the-badge&logo=github&logoColor=white)
+![Projects](https://img.shields.io/badge/Projects-01-blue?style=for-the-badge)
 
-![Learning](https://img.shields.io/badge/Status-Actively%20Building-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Portfolio-Active-success?style=for-the-badge)
 
-![Projects](https://img.shields.io/badge/Projects-Coming%20Soon-orange?style=for-the-badge)
+![Learning](https://img.shields.io/badge/Learning-In%20Progress-orange?style=for-the-badge)
 
-![Focus](https://img.shields.io/badge/Focus-ServiceNow%20Development-blueviolet?style=for-the-badge)
+![Last Update](https://img.shields.io/badge/Updated-Regularly-purple?style=for-the-badge)
 
 <br>
 
-> 🎯 A structured collection of hands-on ServiceNow projects covering portal development, catalog management, ITSM, integrations, automation, scripting, CMDB, and custom applications.
+### 🧩 Service Portal • 📋 Service Catalog • 🔗 Integrations • ⚙️ Automation • 🗄️ CMDB • 💻 Scripting
+
+<br>
+
+[🏠 Home](#-about-this-repository)
+•
+[🎯 Skills](#-servicenow-skills)
+•
+[📂 Projects](#-project-categories)
+•
+[⭐ Featured Project](#-featured-project)
+•
+[🗺️ Roadmap](#️-learning-roadmap)
+•
+[📚 Resources](#-learning-resources)
 
 </div>
 
 ---
 
-# 👋 Welcome
+# 👋 About This Repository
 
 Welcome to my **ServiceNow Projects Portfolio**.
 
-This repository is designed to document my practical ServiceNow learning journey and showcase real-time projects developed using ServiceNow technologies.
+This repository contains my hands-on ServiceNow projects developed while learning and practicing:
 
-Each project will include:
+- 🧩 Service Portal Development
+- 📋 Service Catalog Development
+- ⚙️ Flow Designer Automation
+- 🔗 REST API Integrations
+- 🗄️ CMDB and ITOM
+- 🎫 ITSM Processes
+- 💻 Client-Side and Server-Side Scripting
+- 🏗️ Custom ServiceNow Applications
 
-- 📌 Project overview
-- 🎯 Business requirement
-- 🧩 ServiceNow components
-- 💻 Source code
-- 🗄️ Table and field details
-- 📦 Update Set
-- 📸 Project screenshots
-- 📖 Installation guide
-- 🧪 Testing details
-- 🛠️ Troubleshooting guide
-- 📚 Learning outcomes
+Each project includes:
 
-> 💡 New projects will be added continuously as I build and improve my ServiceNow skills.
+| 📁 Folder | 📌 Purpose |
+|---|---|
+| 💻 `widget-code` | HTML, CSS, Client Controller, and Server Script |
+| 📦 `update-set` | ServiceNow Update Set XML |
+| 🗄️ `database` | Tables and field information |
+| 📸 `screenshots` | Project output and implementation images |
+| 📖 `documentation` | Installation and project guides |
+| 🧪 `testing` | Test cases and validation details |
 
----
-
-# 🗂️ Project Categories
-
-## 🌐 01 — Service Portal Projects
-
-```text
-📁 01-service-portal-projects
-│
-├── 🎫 Visitor Pass Management Portal          ✅ Completed
-├── 🧑‍💼 Employee Self-Service Portal          🔜 Coming Soon
-├── 🛠️ IT Support Portal                       🔜 Coming Soon
-├── 📢 Employee Announcement Portal            🔜 Coming Soon
-└── 📊 Service Request Dashboard                🔜 Coming Soon
-````
-
-### 🧩 Focus Areas
-
-`Service Portal` • `Widgets` • `HTML` • `CSS` • `AngularJS` • `Client Controller` • `Server Script`
+> 🎯 **Goal:** Build practical ServiceNow projects and maintain a well-organized public portfolio.
 
 ---
 
-## 🛒 02 — Service Catalog Projects
+# 🛠️ ServiceNow Skills
 
-```text
-📁 02-service-catalog-projects
-│
-├── 💻 Laptop Request Catalog                  🔜 Coming Soon
-├── 🖥️ Software Request Catalog                🔜 Coming Soon
-├── 👤 Employee Onboarding Catalog             🔜 Coming Soon
-├── 🔐 Access Request Catalog                  🔜 Coming Soon
-└── 📱 Mobile Device Request                    🔜 Coming Soon
-```
+| Category | Technologies and Concepts |
+|---|---|
+| 🧩 **Service Portal** | Portals, Pages, Widgets, AngularJS |
+| 📋 **Service Catalog** | Catalog Items, Variables, Record Producers |
+| 🎫 **ITSM** | Incident, Problem, Change, SLA |
+| 🔗 **Integrations** | REST API, REST Messages, Scripted REST API |
+| ⚙️ **Automation** | Flow Designer, Approvals, Notifications |
+| 🗄️ **CMDB & ITOM** | CIs, Relationships, Discovery |
+| 💻 **Scripting** | Client Scripts, Business Rules, Script Includes |
+| 🏗️ **Custom Apps** | Tables, Forms, Modules, ACLs |
+| 📦 **Deployment** | Update Sets, Preview, Commit |
 
-### 🧩 Focus Areas
+---
 
-`Catalog Items` • `Record Producers` • `Variables` • `Variable Sets` • `Approvals`
+# 📂 Project Categories
+
+## 🧩 01 — Service Portal Projects
+
+> 🌐 Custom portals, pages, widgets, and user interfaces.
+
+| Project | Status | Description |
+|---|:---:|---|
+| 🎫 [Visitor Pass Management Portal](./01-service-portal-projects/visitor-pass-management/) | ✅ Completed | Register visitors, generate visitor IDs, display and print visitor passes |
+| 🧑‍💼 Employee Self-Service Portal | 🔜 Coming Soon | Employee services and self-service requests |
+| 🖥️ IT Support Portal | 🔜 Coming Soon | IT support requests and ticket tracking |
+| 📊 Service Dashboard Portal | 🔜 Coming Soon | Service information and dashboard widgets |
+
+📁 [Open Service Portal Projects](./01-service-portal-projects/)
+
+---
+
+## 📋 02 — Service Catalog Projects
+
+> 🛒 Catalog items, variables, approvals, requests, and fulfillment.
+
+| Project | Status | Description |
+|---|:---:|---|
+| 💻 Laptop Request Catalog | 🔜 Planned | Request a laptop with approval workflow |
+| 🧑‍💻 Software Access Request | 🔜 Planned | Request access to software applications |
+| 👤 Employee Onboarding | 🔜 Planned | New employee onboarding requests |
+| 🔐 Access Request Catalog | 🔜 Planned | User access and approval process |
+
+📁 [Open Service Catalog Projects](./02-service-catalog-projects/)
 
 ---
 
 ## 🔗 03 — Integration Projects
 
-```text
-📁 03-integration-projects
-│
-├── 🌐 REST API Integration                    🔜 Coming Soon
-├── 📤 Outbound REST Message                   🔜 Coming Soon
-├── 📥 Inbound Integration                     🔜 Coming Soon
-├── ⚙️ Scripted REST API                       🔜 Coming Soon
-└── 🔄 Third-Party Integration                 🔜 Coming Soon
-```
+> 🔄 Connect ServiceNow with external applications and APIs.
 
-### 🧩 Focus Areas
+| Project | Status | Description |
+|---|:---:|---|
+| 🌐 Outbound REST Integration | 🔜 Planned | Send ServiceNow data to an external API |
+| 📥 Inbound REST Integration | 🔜 Planned | Receive external data in ServiceNow |
+| ⚙️ Scripted REST API | 🔜 Planned | Create custom ServiceNow API endpoints |
+| 🔄 Third-Party Integration | 🔜 Planned | Connect ServiceNow with another platform |
 
-`REST API` • `JSON` • `Authentication` • `REST Messages` • `Scripted APIs`
+📁 [Open Integration Projects](./03-integration-projects/)
 
 ---
 
-## 🛠️ 04 — ITSM Projects
+## 🎫 04 — ITSM Projects
 
-```text
-📁 04-itsm-projects
-│
-├── 🚨 Incident Management                     🔜 Coming Soon
-├── 🔍 Problem Management                      🔜 Coming Soon
-├── 🔄 Change Management                       🔜 Coming Soon
-├── ⏱️ Service Level Management                🔜 Coming Soon
-└── 📈 ITSM Dashboard                          🔜 Coming Soon
-```
+> 🛠️ Incident, Problem, Change, and Service Level Management.
 
-### 🧩 Focus Areas
+| Project | Status | Description |
+|---|:---:|---|
+| 🚨 Incident Automation | 🔜 Planned | Automate incident assignment and notifications |
+| 🔍 Problem Management | 🔜 Planned | Root cause analysis and known error management |
+| 🔄 Change Management | 🔜 Planned | Change request and approval process |
+| ⏱️ SLA Management | 🔜 Planned | Configure and monitor service level agreements |
 
-`Incident` • `Problem` • `Change` • `SLA` • `Knowledge Management`
+📁 [Open ITSM Projects](./04-itsm-projects/)
 
 ---
 
 ## 🗄️ 05 — CMDB & ITOM Projects
 
-```text
-📁 05-cmdb-and-itom-projects
-│
-├── 🗃️ CMDB Implementation                     🔜 Coming Soon
-├── 🔎 Discovery Configuration                 🔜 Coming Soon
-├── 🗺️ Service Mapping                         🔜 Coming Soon
-├── 🖥️ Configuration Item Management           🔜 Coming Soon
-└── 📊 CMDB Health Dashboard                   🔜 Coming Soon
-```
+> 🖥️ Configuration items, relationships, discovery, and service mapping.
 
-### 🧩 Focus Areas
+| Project | Status | Description |
+|---|:---:|---|
+| 🗄️ CMDB Implementation | 🔜 Planned | Create and manage configuration items |
+| 🔎 Discovery Configuration | 🔜 Planned | Discover infrastructure and update CMDB |
+| 🕸️ Service Mapping | 🔜 Planned | Map application services and dependencies |
 
-`CMDB` • `CSDM` • `Discovery` • `Service Mapping` • `Configuration Items`
+📁 [Open CMDB & ITOM Projects](./05-cmdb-and-itom-projects/)
 
 ---
 
 ## 👥 06 — HRSD Projects
 
-```text
-📁 06-hrsd-projects
-│
-├── 🧑‍💼 Employee Service Center               🔜 Coming Soon
-├── 📝 Employee Onboarding                     🔜 Coming Soon
-├── 🏖️ Leave Request Management                🔜 Coming Soon
-└── 📄 HR Case Management                      🔜 Coming Soon
-```
+> 🧑‍💼 Employee services, HR cases, and employee experiences.
 
-### 🧩 Focus Areas
+| Project | Status | Description |
+|---|:---:|---|
+| 🧑‍💼 Employee Service Center | 🔜 Planned | Central employee self-service portal |
+| 📄 HR Case Management | 🔜 Planned | Create and manage employee HR cases |
+| 🎓 Employee Onboarding | 🔜 Planned | Automate employee onboarding activities |
 
-`HR Case` • `Employee Center` • `HR Services` • `Employee Lifecycle`
+📁 [Open HRSD Projects](./06-hrsd-projects/)
 
 ---
 
 ## 🤝 07 — CSM Projects
 
-```text
-📁 07-csm-projects
-│
-├── 🎧 Customer Support Portal                 🔜 Coming Soon
-├── 📩 Customer Case Management                🔜 Coming Soon
-├── 💬 Customer Service Workspace              🔜 Coming Soon
-└── 📚 Customer Knowledge Management           🔜 Coming Soon
-```
+> 🎧 Customer cases, customer support, and service experiences.
 
-### 🧩 Focus Areas
+| Project | Status | Description |
+|---|:---:|---|
+| 🎫 Customer Case Management | 🔜 Planned | Create and manage customer support cases |
+| 💬 Customer Support Portal | 🔜 Planned | Customer self-service portal |
+| 📚 Knowledge Management | 🔜 Planned | Customer knowledge and help articles |
 
-`Customer Cases` • `CSM Workspace` • `Customer Portal` • `Knowledge`
+📁 [Open CSM Projects](./07-csm-projects/)
 
 ---
 
-## ⚡ 08 — Automation & Flow Designer
+## ⚙️ 08 — Automation & Flow Designer
 
-```text
-📁 08-automation-and-flow-designer
-│
-├── ✅ Approval Automation                     🔜 Coming Soon
-├── 🚨 Incident Auto-Assignment                🔜 Coming Soon
-├── 📧 Automated Notifications                 🔜 Coming Soon
-├── 🔄 Request Approval Flow                   🔜 Coming Soon
-└── ⚡ Employee Onboarding Flow                🔜 Coming Soon
-```
+> 🤖 Automate approvals, notifications, tasks, and business processes.
 
-### 🧩 Focus Areas
+| Project | Status | Description |
+|---|:---:|---|
+| 🤖 Automated Approval Flow | 🔜 Planned | Automate request approvals |
+| 📧 Notification Automation | 🔜 Planned | Send notifications based on conditions |
+| 🚨 Incident Assignment Flow | 🔜 Planned | Automatically assign incidents |
+| 🔄 Employee Onboarding Flow | 🔜 Planned | Automate onboarding tasks |
 
-`Flow Designer` • `Actions` • `Subflows` • `Approvals` • `Notifications`
+📁 [Open Automation Projects](./08-automation-and-flow-designer/)
 
 ---
 
-## 💻 09 — ServiceNow Scripting
+## 💻 09 — ServiceNow Scripting Projects
 
-```text
-📁 09-scripting-projects
-│
-├── 🖥️ Client Scripts                          🔜 Coming Soon
-├── ⚙️ Business Rules                          🔜 Coming Soon
-├── 🧩 Script Includes                         🔜 Coming Soon
-├── 🔄 GlideAjax                               🔜 Coming Soon
-├── ⏰ Scheduled Jobs                          🔜 Coming Soon
-└── 🗄️ GlideRecord Examples                    🔜 Coming Soon
-```
+> 🧠 Client-side and server-side scripting examples.
 
-### 🧩 Focus Areas
+| Project | Status | Description |
+|---|:---:|---|
+| 🖱️ Client Script Examples | 🔜 Planned | Form validation and field automation |
+| ⚙️ Business Rule Examples | 🔜 Planned | Automate database operations |
+| 🔗 GlideAjax Project | 🔜 Planned | Client-server communication |
+| 🧩 Script Include Project | 🔜 Planned | Reusable server-side logic |
 
-`JavaScript` • `GlideRecord` • `GlideAjax` • `Client Scripts` • `Business Rules`
+📁 [Open Scripting Projects](./09-scripting-projects/)
 
 ---
 
 ## 🏗️ 10 — Custom Applications
 
-```text
-📁 10-custom-applications
-│
-├── 🎫 Visitor Management Application          🔜 Coming Soon
-├── 🏢 Asset Management Application            🔜 Coming Soon
-├── 📚 Training Management Application         🔜 Coming Soon
-├── 📝 Employee Feedback Application           🔜 Coming Soon
-└── 📊 Custom Reporting Application            🔜 Coming Soon
-```
+> 🧱 Build complete ServiceNow applications using custom tables and workflows.
 
-### 🧩 Focus Areas
+| Project | Status | Description |
+|---|:---:|---|
+| 🏢 Asset Management App | 🔜 Planned | Manage company assets |
+| 🅿️ Parking Management App | 🔜 Planned | Manage employee parking |
+| 📦 Inventory Management App | 🔜 Planned | Track inventory and stock |
+| 🧑‍💼 Employee Management App | 🔜 Planned | Manage employee information |
 
-`App Engine Studio` • `Custom Tables` • `Forms` • `Lists` • `Roles` • `ACLs`
+📁 [Open Custom Applications](./10-custom-applications/)
 
 ---
 
@@ -239,195 +238,75 @@ Each project will include:
 
 ## 🎫 Visitor Pass Management Portal
 
-```text
-Project Status: ✅ Completed
+![Project Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
 
-Platform: ☁️ ServiceNow
+![Module](https://img.shields.io/badge/Module-Service%20Portal-81B5A1?style=flat-square)
 
-Module: 🌐 Service Portal
+![Database](https://img.shields.io/badge/Database-Custom%20Table-blue?style=flat-square)
 
-Project Type: 🧩 Custom Widget Development
+A custom ServiceNow Service Portal application that allows users to register visitors, generate unique Visitor IDs, display visitor cards, store visitor information, and print visitor passes.
 
-Database: 🗄️ Custom Visitor Table
+### ✨ Features
 
-Deployment: 📦 Update Set
+- 📝 Visitor registration form
+- 👤 Visitor name and designation
+- 📱 Mobile number capture
+- 📍 Place and purpose details
+- 🆔 Automatic Visitor ID generation
+- 📅 Current date display
+- 💾 Custom table record creation
+- 🎫 Dynamic visitor pass generation
+- 🖨️ Print visitor pass functionality
 
-Output: 🎫 Dynamic Visitor Pass
-```
+### 🔗 Project Navigation
 
-### ✨ Project Highlights
-
-* 📝 Visitor registration form
-* 👤 Visitor name and designation
-* 📱 Mobile number capture
-* 📍 Place information
-* 🎯 Purpose of visit
-* 🆔 Automatic Visitor ID generation
-* 📅 Current date generation
-* 💾 Visitor data stored in a custom table
-* 🎫 Dynamic visitor pass generation
-* 🖨️ Print visitor pass functionality
-* 🧩 Custom Service Portal widget
-* 📦 Update Set deployment
-
-### 🛠️ Technologies Used
-
-| Technology           | Purpose                       |
-| -------------------- | ----------------------------- |
-| ☁️ ServiceNow        | Main platform                 |
-| 🌐 Service Portal    | Portal user interface         |
-| 🧩 Custom Widget     | Visitor registration and pass |
-| 🧱 HTML              | Form and card structure       |
-| 🎨 CSS               | Visitor pass design           |
-| 🟨 JavaScript        | Project logic                 |
-| 🅰️ AngularJS        | Data binding                  |
-| 💻 Client Controller | Sends data to the server      |
-| ⚙️ Server Script     | Processes visitor information |
-| 🗄️ GlideRecord      | Creates visitor records       |
-| 📦 Update Set        | Project deployment            |
+- 🎫 [Open Visitor Pass Project](./01-service-portal-projects/visitor-pass-management/)
+- 💻 [View Widget Code](./01-service-portal-projects/visitor-pass-management/widget-code/)
+- 📦 [View Update Set](./01-service-portal-projects/visitor-pass-management/update-set/)
+- 📸 [View Screenshots](./01-service-portal-projects/visitor-pass-management/screenshots/)
+- 📖 [View Installation Guide](./01-service-portal-projects/visitor-pass-management/documentation/installation-guide.md)
 
 ---
 
-# 🧠 Skills Demonstrated
+# 🗺️ Learning Roadmap
 
-```text
-☁️ ServiceNow Development
-🌐 Service Portal Development
-🧩 Custom Widget Development
-🧱 HTML
-🎨 CSS
-🟨 JavaScript
-🅰️ AngularJS
-💻 Client-Side Scripting
-⚙️ Server-Side Scripting
-🗄️ GlideRecord
-📋 Custom Tables
-🔐 Roles and Access
-⚡ Flow Designer
-📦 Update Sets
-🧪 Testing and Troubleshooting
-```
+| Stage | Area | Progress |
+|:---:|---|:---:|
+| 01 | 🧩 Service Portal | 🟢 In Progress |
+| 02 | 📋 Service Catalog | ⚪ Planned |
+| 03 | 🔗 Integrations | ⚪ Planned |
+| 04 | 🎫 ITSM | ⚪ Planned |
+| 05 | 🗄️ CMDB & ITOM | ⚪ Planned |
+| 06 | 👥 HRSD | ⚪ Planned |
+| 07 | 🤝 CSM | ⚪ Planned |
+| 08 | ⚙️ Flow Designer | ⚪ Planned |
+| 09 | 💻 Scripting | 🟡 Learning |
+| 10 | 🏗️ Custom Applications | ⚪ Planned |
+
+### Status Symbols
+
+| Symbol | Meaning |
+|:---:|---|
+| ✅ | Completed |
+| 🟢 | In Progress |
+| 🟡 | Learning |
+| 🔜 | Planned / Coming Soon |
+| ⚪ | Not Started |
 
 ---
 
 # 📊 Portfolio Progress
 
-| Project Category        | Status         |
-| ----------------------- | -------------- |
-| 🌐 Service Portal       | 🟢 Started     |
-| 🛒 Service Catalog      | ⚪ Planned      |
-| 🔗 Integrations         | ⚪ Planned      |
-| 🛠️ ITSM                | ⚪ Planned      |
-| 🗄️ CMDB & ITOM         | ⚪ Planned      |
-| 👥 HRSD                 | ⚪ Planned      |
-| 🤝 CSM                  | ⚪ Planned      |
-| ⚡ Automation            | ⚪ Planned      |
-| 💻 Scripting            | 🟡 In Progress |
-| 🏗️ Custom Applications | ⚪ Planned      |
-
-### Status Legend
-
-🟢 **Started**
-🟡 **In Progress**
-🔵 **Under Development**
-✅ **Completed**
-🔜 **Coming Soon**
-⚪ **Planned**
-
----
-
-# 🗂️ Repository Structure
-
 ```text
-📦 servicenow-projects
-│
-├── 🌐 01-service-portal-projects
-│   └── 🎫 visitor-pass-management
-│
-├── 🛒 02-service-catalog-projects
-│
-├── 🔗 03-integration-projects
-│
-├── 🛠️ 04-itsm-projects
-│
-├── 🗄️ 05-cmdb-and-itom-projects
-│
-├── 👥 06-hrsd-projects
-│
-├── 🤝 07-csm-projects
-│
-├── ⚡ 08-automation-and-flow-designer
-│
-├── 💻 09-scripting-projects
-│
-├── 🏗️ 10-custom-applications
-│
-├── 📄 README.md
-└── 📜 LICENSE
-```
+ServiceNow Portfolio Progress
 
----
-
-# 🎯 Learning Roadmap
-
-```text
-🌱 Foundation
-     ↓
-☁️ ServiceNow Administration
-     ↓
-🧩 Service Portal Development
-     ↓
-🛒 Service Catalog
-     ↓
-💻 ServiceNow Scripting
-     ↓
-⚡ Flow Designer
-     ↓
-🔗 Integrations
-     ↓
-🗄️ CMDB & ITOM
-     ↓
-🏗️ Custom Applications
-     ↓
-🚀 Advanced ServiceNow Development
-```
-
----
-
-# 📌 Repository Goals
-
-* 🎯 Build practical ServiceNow projects
-* 🧩 Improve ServiceNow development skills
-* 💻 Practice client-side and server-side scripting
-* ⚡ Build automation using Flow Designer
-* 🔗 Learn REST API integrations
-* 🗄️ Understand CMDB and CSDM concepts
-* 🏗️ Develop custom ServiceNow applications
-* 📚 Maintain clear project documentation
-* 🧪 Follow testing and troubleshooting practices
-* 🚀 Build a strong ServiceNow project portfolio
-
----
-
-# 👨‍💻 Author
-
-## Kodati Venkata Sampath
-
-**Aspiring ServiceNow Developer | ServiceNow Administrator | ITSM**
-
-🎯 Focus: ServiceNow Development and Enterprise Workflow Automation
-
-📚 Continuously learning, building, testing, and improving ServiceNow projects.
-
----
-
-<div align="center">
-
-### ⭐ This repository is actively growing
-
-> 🚀 New ServiceNow projects will be added regularly.
-
-**Thank you for visiting my ServiceNow Projects Portfolio!**
-
-</div>
-```
+🧩 Service Portal          ██████████  100% ✅
+📋 Service Catalog         ░░░░░░░░░░    0% 🔜
+🔗 Integrations            ░░░░░░░░░░    0% 🔜
+🎫 ITSM                    ░░░░░░░░░░    0% 🔜
+🗄️ CMDB & ITOM             ░░░░░░░░░░    0% 🔜
+👥 HRSD                    ░░░░░░░░░░    0% 🔜
+🤝 CSM                     ░░░░░░░░░░    0% 🔜
+⚙️ Automation              ░░░░░░░░░░    0% 🔜
+💻 Scripting               ███░░░░░░░   30% 🟡
+🏗️ Custom Applications     ░░░░░░░░░░    0% 🔜
