@@ -1,0 +1,126 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-5">
+
+      <div class="panel panel-primary">
+
+        <div class="panel-heading">
+          <h3 class="text-center">Visitor Registration</h3>
+        </div>
+
+        <div class="panel-body">
+
+          <div class="form-group">
+            <label>Name</label>
+            <input class="form-control" ng-model="c.data.name">
+          </div>
+
+          <div class="form-group">
+            <label>Designation</label>
+            <input class="form-control" ng-model="c.data.title">
+          </div>
+
+          <div class="form-group">
+            <label>Mobile Number</label>
+            <input class="form-control" ng-model="c.data.phone">
+          </div>
+
+          <!-- Added because city/place is used in your scripts -->
+          <div class="form-group">
+            <label>Place</label>
+            <input class="form-control" ng-model="c.data.city">
+          </div>
+
+          <div class="form-group">
+            <label>Purpose of Visit</label>
+            <textarea class="form-control"
+                      ng-model="c.data.purpose"></textarea>
+          </div>
+
+          <button class="btn btn-success btn-block"
+                  ng-click="c.save()">
+            Generate Visitor Pass
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-7" ng-if="c.data.showCard">
+
+      <div class="visitorcard">
+
+        <div class="header">
+
+          <h2>WELCOME TO VSK SOFTWARE PRAVITE LIMITED COMPANY</h2>
+
+          <h4>THANK YOU VERY MUCH FOR VISITING VSK SOFTWARE PRAVITE LIMITED COMPANY</h4>
+
+        </div>
+
+        <div class="body">
+
+          <div class="photo">
+
+            <img src="https://img.magnific.com/free-photo/view-from-business-startup-teamwork-concept-startup-partners-sitting-coworking-space-talking-about-future-project-looking-through-examples-work-laptop-digital-tablet_176420-8330.jpg?semt=ais_hybrid&w=740&q=80"
+                 alt="Visitor">
+
+          </div>
+
+          <div class="details">
+
+            <p>
+              <b>Name</b><br>
+              {{c.data.name}}
+            </p>
+
+            <p>
+              <b>Designation</b><br>
+              {{c.data.title}}
+            </p>
+
+            <p>
+              <b>Mobile Number</b><br>
+              {{c.data.phone}}
+            </p>
+
+            <p>
+              <b>Place</b><br>
+              {{c.data.city}}
+            </p>
+
+            <p>
+              <b>Purpose</b><br>
+              {{c.data.purpose}}
+            </p>
+
+            <p>
+              <b>Visitor ID</b><br>
+              {{c.data.userid}}
+            </p>
+
+            <p>
+              <b>Date</b><br>
+              {{c.data.date}}
+            </p>
+
+          </div>
+
+        </div>
+
+        <button class="btn btn-primary"
+                onclick="window.print()">
+          Print Pass
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
