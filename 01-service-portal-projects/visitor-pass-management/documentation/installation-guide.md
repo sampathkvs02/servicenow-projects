@@ -1,53 +1,3 @@
-Use this improved and more visual version for your:
-
-```text
-documentation/installation-guide.md
-```
-
-````markdown
-<div align="center">
-
-# 🚀 Installation Guide
-
-### 🎫 Visitor Pass Management Portal  
-### 🟢 ServiceNow Service Portal Project
-
-![ServiceNow](https://img.shields.io/badge/Platform-ServiceNow-81B5A1?style=for-the-badge&logo=servicenow&logoColor=white)
-
-![Deployment](https://img.shields.io/badge/Deployment-Update%20Set-blue?style=for-the-badge)
-
-![Status](https://img.shields.io/badge/Installation-Ready-success?style=for-the-badge)
-
-<br>
-
-[📋 Prerequisites](#-prerequisites) •
-[📦 Import Update Set](#-import-the-update-set) •
-[🔍 Preview](#-preview-the-update-set) •
-[✅ Commit](#-commit-the-update-set) •
-[🧪 Verify](#-verify-the-project) •
-[🛠️ Troubleshooting](#️-troubleshooting)
-
-</div>
-
----
-
-# 📋 Prerequisites
-
-Before installing the project, make sure you have the following:
-
-| Symbol | Requirement | Status |
-|:---:|---|:---:|
-| ☁️ | Active ServiceNow Instance | ✅ |
-| 👨‍💻 | ServiceNow Admin Role | ✅ |
-| 🌐 | Service Portal Access | ✅ |
-| 📦 | Visitor Pass Update Set XML | ✅ |
-| 🧩 | Required Plugin Access | ⚙️ |
-| 🔐 | Required Table Permissions | 🔍 |
-
-> 💡 **Note:** It is recommended to install the project in a **Personal Developer Instance (PDI)** or a test instance before deploying it to a production instance.
-
----
-
 # 📦 Import the Update Set
 
 ## 🥇 Step 1: Log In
@@ -544,15 +494,8 @@ Verify:
 * 📦 The correct XML file was selected
 * ⬆️ Upload completed successfully
 * 🔍 The list is not filtered
-* 🔄 Refresh the Retrieved Update Sets list
-
-</details>
-
----
-
+* 🔄 Refresh the Retrieved Update
 # 🎉 Installation Complete
-
-<div align="center">
 
 ## ✅ Visitor Pass Management Portal Is Ready!
 
@@ -571,23 +514,5 @@ Verify:
 ```
 
 ### 🚀 Your ServiceNow Visitor Pass Project is ready to use!
-
-</div>
-
----
-
-## 🔗 Quick Navigation
-
-⬅️ [Back to Project README](../README.md)
-
-💻 [View Widget HTML](../widget-code/html.html)
-
-🎨 [View Widget CSS](../widget-code/css.css)
-
-⚙️ [View Server Script](../widget-code/server-script.js)
-
-🧩 [View Client Controller](../widget-code/client-script.js)
-
-🗄️ [View Visitor Table Details](../database/visitor-table-details.md)
 
 
