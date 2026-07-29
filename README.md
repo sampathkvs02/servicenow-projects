@@ -310,3 +310,144 @@ ServiceNow Portfolio Progress
 ⚙️ Automation              ░░░░░░░░░░    0% 🔜
 💻 Scripting               ███░░░░░░░   30% 🟡
 🏗️ Custom Applications     ░░░░░░░░░░    0% 🔜
+
+
+📚 Learning Resources
+🌐 ServiceNow Developer Portal
+📖 ServiceNow Documentation
+💻 ServiceNow Community
+🐙 GitHub Documentation
+📝 GitHub Markdown Guide
+👨‍💻 Author
+
+Kodati Venkata Sampath
+
+🎯 Aspiring ServiceNow Developer
+
+🧩 ServiceNow Administrator | ServiceNow Developer | ITSM
+
+📚 Building hands-on projects and improving ServiceNow skills.
+
+<div align="center">
+⭐ If you find these projects useful, please consider giving this repository a star!
+🚀 More ServiceNow projects will be added soon.
+</div> ```
+Important: How to add future projects
+
+When you complete a new project, do only these three updates:
+
+Create the project folder.
+
+Example:
+
+02-service-catalog-projects/
+└── laptop-request-catalog/
+    ├── README.md
+    ├── update-set/
+    ├── screenshots/
+    ├── documentation/
+    └── source-code/
+Change the project status in the main README:
+
+Before:
+
+| 💻 Laptop Request Catalog | 🔜 Planned | Request a laptop |
+
+After:
+
+| 💻 [Laptop Request Catalog](./02-service-catalog-projects/laptop-request-catalog/) | ✅ Completed | Request a laptop with approval workflow |
+Update the progress section:
+
+Before:
+
+📋 Service Catalog         ░░░░░░░░░░    0% 🔜
+
+After:
+
+📋 Service Catalog         █████░░░░░   50% 🟢
+
+
+
+Servicenow projects Recommended GitHub Structure.
+
+servicenow-projects/
+│
+├── README.md
+│
+├── 01-service-portal-projects/
+│   │
+│   ├── visitor-pass-management/
+│   │   │
+│   │   ├── README.md
+│   │   │
+│   │   ├── widget-code/
+│   │   │   ├── html.html
+│   │   │   ├── css.css
+│   │   │   ├── client-script.js
+│   │   │   └── server-script.js
+│   │   │
+│   │   ├── update-set/
+│   │   │   └── visitor-pass-update-set.xml
+│   │   │
+│   │   ├── database/
+│   │   │   └── visitor-table-details.md
+│   │   │
+│   │   ├── screenshots/
+│   │   │   ├── portal-home-page.png
+│   │   │   ├── visitor-registration-form.png
+│   │   │   ├── generated-visitor-pass.png
+│   │   │   └── visitor-table-record.png
+│   │   │
+│   │   └── documentation/
+│   │       ├── installation-guide.md
+│   │       └── project-flow.md
+│   │
+│   └── future-service-portal-project/
+│       └── README.md
+│
+├── 02-service-catalog-projects/
+│   │
+│   ├── employee-onboarding-catalog/
+│   ├── laptop-request-catalog/
+│   └── software-request-catalog/
+│
+├── 03-integration-projects/
+│   │
+│   ├── rest-api-integration/
+│   ├── scripted-rest-api/
+│   ├── outbound-rest-message/
+│   └── third-party-integration/
+│
+├── 04-itsm-projects/
+│   │
+│   ├── incident-management/
+│   ├── problem-management/
+│   ├── change-management/
+│   └── service-level-management/
+│
+├── 05-cmdb-and-itom-projects/
+│   │
+│   ├── cmdb-implementation/
+│   ├── discovery/
+│   └── service-mapping/
+│
+├── 06-hrsd-projects/
+│   └── employee-service-center/
+│
+├── 07-csm-projects/
+│   └── customer-service-management/
+│
+├── 08-automation-and-flow-designer/
+│   ├── approval-workflow/
+│   ├── incident-automation/
+│   └── notification-flow/
+│
+├── 09-scripting-projects/
+│   ├── client-scripts/
+│   ├── business-rules/
+│   ├── script-includes/
+│   ├── glideajax/
+│   └── scheduled-jobs/
+│
+└── 10-custom-applications/
+    └── future-custom-app/
